@@ -1,0 +1,4 @@
+Model,experiment_1,experiment_2,experiment_3,Mean,Std
+RandomForest,1.0,1.0,1.0,1.0,0.0
+GradientBoosting,1.0,1.0,1.0,1.0,0.0
+DeepLearning,0.9856336582863007,0.9861467419189328,0.978450487429451,0.9834102958782281,0.0035133638762056287

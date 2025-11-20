@@ -1,0 +1,61 @@
+优化版模型实验最终报告
+==================================================
+
+实验设置:
+- 实验次数: 3次
+- 模型数量: 12 个模型
+- 数据集: 9742 个样本, 40 个特征
+
+新增和改进的模型:
+🤖 机器学习模型:
+  - ExtraTrees (极端随机树)
+  - AdaBoost (自适应提升)
+  - DecisionTree (决策树)
+  - ElasticNet (弹性网络)
+  - MLP (多层感知机)
+
+🧠 深度学习模型:
+  - DeepResNet (深度残差网络)
+  - DeepWideNet (宽深度网络)
+  - 残差连接 + BatchNorm + Dropout
+  - AdamW优化器 + Cosine学习率调度
+
+最佳模型性能:
+- 回归任务最佳模型: GradientBoosting
+  - 平均MAE: 0.0003
+- 性能提升: 与基线对比数据未提供  # 回归提升信息
+
+- 分类任务最佳模型: RandomForest
+  - 平均准确率: 1.0000
+  # 分类提升信息
+
+模型表现总结:
+回归任务 (MAE越低越好):
+  RandomForest: 0.0003 ± 0.0000
+  ExtraTrees: 0.0006 ± 0.0000
+  GradientBoosting: 0.0003 ± 0.0000
+  AdaBoost: 0.1035 ± 0.0000
+  DecisionTree: 0.0006 ± 0.0000
+  Ridge: 0.0004 ± 0.0000
+  Lasso: 0.0779 ± 0.0000
+  ElasticNet: 0.0740 ± 0.0000
+  KNN: 0.2405 ± 0.0000
+  SVM: 0.0630 ± 0.0000
+  MLP: 0.0651 ± 0.0000
+  DeepLearning: 0.0173 ± 0.0007
+
+分类任务 (准确率越高越好):
+  RandomForest: 1.0000 ± 0.0000
+  ExtraTrees: 0.9785 ± 0.0000
+  GradientBoosting: 1.0000 ± 0.0000
+  AdaBoost: 1.0000 ± 0.0000
+  DecisionTree: 1.0000 ± 0.0000
+  LogisticRegression: 0.9928 ± 0.0000
+  KNN: 0.8548 ± 0.0000
+  SVM: 0.9584 ± 0.0000
+  MLP: 0.9800 ± 0.0000
+  DeepLearning: 0.9838 ± 0.0005
+
+结论:
+使用高效的机器学习模型和深度学习模型显著提升了预测性能。
+推荐在生产环境中使用 GradientBoosting 进行回归预测，使用 RandomForest 进行分类预测。

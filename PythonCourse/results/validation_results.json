@@ -1,0 +1,98 @@
+{
+  "regression": {
+    "results": {
+      "experiment_1": {
+        "RandomForest": 0.0004063519753722942,
+        "GradientBoosting": 0.002658395579423247,
+        "DeepLearning": 0.15132116015792932
+      },
+      "experiment_2": {
+        "RandomForest": 0.0003156182657777338,
+        "GradientBoosting": 0.002579254794119941,
+        "DeepLearning": 0.14474459756124072
+      },
+      "experiment_3": {
+        "RandomForest": 0.0002987018984097513,
+        "GradientBoosting": 0.002646643700068821,
+        "DeepLearning": 0.09508963327128929
+      }
+    },
+    "averages": {
+      "RandomForest": {
+        "mean": 0.00034022404651992645,
+        "std": 4.726674731041544e-05,
+        "scores": [
+          0.0004063519753722942,
+          0.0003156182657777338,
+          0.0002987018984097513
+        ]
+      },
+      "GradientBoosting": {
+        "mean": 0.0026280980245373363,
+        "std": 3.486901714794311e-05,
+        "scores": [
+          0.002658395579423247,
+          0.002579254794119941,
+          0.002646643700068821
+        ]
+      },
+      "DeepLearning": {
+        "mean": 0.13038513033015312,
+        "std": 0.025101684915177034,
+        "scores": [
+          0.15132116015792932,
+          0.14474459756124072,
+          0.09508963327128929
+        ]
+      }
+    }
+  },
+  "classification": {
+    "results": {
+      "experiment_1": {
+        "RandomForest": 1.0,
+        "GradientBoosting": 1.0,
+        "DeepLearning": 0.9856336582863007
+      },
+      "experiment_2": {
+        "RandomForest": 1.0,
+        "GradientBoosting": 1.0,
+        "DeepLearning": 0.9861467419189328
+      },
+      "experiment_3": {
+        "RandomForest": 1.0,
+        "GradientBoosting": 1.0,
+        "DeepLearning": 0.978450487429451
+      }
+    },
+    "averages": {
+      "RandomForest": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "GradientBoosting": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "DeepLearning": {
+        "mean": 0.9834102958782281,
+        "std": 0.0035133638762056287,
+        "scores": [
+          0.9856336582863007,
+          0.9861467419189328,
+          0.978450487429451
+        ]
+      }
+    }
+  }
+}

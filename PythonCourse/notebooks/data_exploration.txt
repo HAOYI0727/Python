@@ -1,0 +1,55 @@
+📊 数据集基本信息:
+电影数据: (9742, 3)
+评分数据: (100836, 4)
+链接数据: (9742, 3)
+标签数据: (3683, 4)
+
+🎬 电影数据预览:
+    movieId                                  title                                       genres
+0         1                       Toy Story (1995)  Adventure|Animation|Children|Comedy|Fantasy
+1         2                         Jumanji (1995)                   Adventure|Children|Fantasy
+2         3                Grumpier Old Men (1995)                               Comedy|Romance
+3         4               Waiting to Exhale (1995)                         Comedy|Drama|Romance
+4         5     Father of the Bride Part II (1995)                                       Comedy
+5         6                            Heat (1995)                        Action|Crime|Thriller
+6         7                         Sabrina (1995)                               Comedy|Romance
+7         8                    Tom and Huck (1995)                           Adventure|Children
+8         9                    Sudden Death (1995)                                       Action
+9        10                       GoldenEye (1995)                    Action|Adventure|Thriller
+10       11         American President, The (1995)                         Comedy|Drama|Romance
+11       12     Dracula: Dead and Loving It (1995)                                Comedy|Horror
+12       13                           Balto (1995)                 Adventure|Animation|Children
+13       14                           Nixon (1995)                                        Drama
+14       15                Cutthroat Island (1995)                     Action|Adventure|Romance
+15       16                          Casino (1995)                                  Crime|Drama
+16       17           Sense and Sensibility (1995)                                Drama|Romance
+17       18                      Four Rooms (1995)                                       Comedy
+18       19  Ace Ventura: When Nature Calls (1995)                                       Comedy
+19       20                     Money Train (1995)           Action|Comedy|Crime|Drama|Thriller
+
+电影数据信息:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 9742 entries, 0 to 9741
+Data columns (total 3 columns):
+ #   Column   Non-Null Count  Dtype 
+---  ------   --------------  ----- 
+ 0   movieId  9742 non-null   int64 
+ 1   title    9742 non-null   object
+ 2   genres   9742 non-null   object
+dtypes: int64(1), object(2)
+memory usage: 228.5+ KB
+
+
+电影数据描述:
+              movieId            title genres
+count     9742.000000             9742   9742
+unique            NaN             9737    951
+top               NaN  Saturn 3 (1980)  Drama
+freq              NaN                2   1053
+mean     42200.353623              NaN    NaN
+std      52160.494854              NaN    NaN
+min          1.000000              NaN    NaN
+25%       3248.250000              NaN    NaN
+50%       7300.000000              NaN    NaN
+75%      76232.000000              NaN    NaN
+max     193609.000000              NaN    NaN
